@@ -1,0 +1,39 @@
+// MEM Module
+module MEM();
+    // Module internals would go here
+endmodule
+
+// SC Module
+module SC();
+    // Module internals would go here
+endmodule
+
+// Xbar Module
+module Xbar();
+    // Module internals would go here
+endmodule
+
+// IS module
+module IS();
+
+    // Instantiate MEM module
+    MEM mem_instance (
+    );
+
+    // Instantiate SC module
+    SC sc_instance (
+    );
+
+    // Instantiate Xbar module
+    Xbar xbar_instance (
+    );
+
+endmodule
+
+// top_module
+module Top();
+
+IS is1(
+);
+
+endmodule
